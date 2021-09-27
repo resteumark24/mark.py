@@ -1,17 +1,17 @@
 [METODA I]
-l = [i for i in range(10)]
-l.sort()
-print("Cel mai mare numar este:", l[-1])
+list = [i for i in range(10)]
+list.sort()
+print("Cel mai mare numar este:", list[-1])
 
 [METODA II]
-l = [i for i in range(10)]
-print("Cel mai mare numar este:", max(l))
+list = [i for i in range(10)]
+print("Cel mai mare numar este:", max(list))
 
 [METODA III]-    NU MERGE !!!!!
-I = []
+list = []
 num = int(input("How many numbers: "))
 for i in range(num):
    numbers = int(input("Enter number: "))
-l.append(numbers)
-print("Cel mai mare numar este:", max(l))
+list.append(numbers)
+print("Cel mai mare numar este:", max(list))
 
