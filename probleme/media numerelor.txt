@@ -26,5 +26,5 @@ num = int(input("How many numbers: "))
 for i in range(num):
   numbers = int(input("Enter number: "))
   list.append(numbers)
-x = statistics.mean(l)
+x = statistics.mean(list)
 print(x)
