@@ -7,16 +7,6 @@ print(sum(l)//3)
 
 
 
-list = []
-num = int(input("How many numbers: "))
-for i in range(num):
-  numbers = int(input("Enter number: "))
-  list.append(numbers)
-for i in range(num):
-  numarPrim = i / 2
-  if numarPrim == 0:
-    print(sum(numarPrim) // len(num))
-
 
 
 [METODA FINALA]
