@@ -1,21 +1,40 @@
-l = []
+list = []
 num = int(input("How many numbers: "))
 for i in range(num):
   numbers = int(input("Enter number: "))
-  l.append(numbers)
+  list.append(numbers)
 print(sum(l)//3)
 
 
 
-
-
-
-l = []
+list = []
 num = int(input("How many numbers: "))
 for i in range(num):
   numbers = int(input("Enter number: "))
-  l.append(numbers)
+  list.append(numbers)
 for i in range(num):
   numarPrim = i / 2
   if numarPrim == 0:
     print(sum(numarPrim) // len(num))
+
+
+
+[METODA FINALA]
+
+{I}
+import statistics
+
+list = [5, 6, 32, 7, 22]
+x = statistics.mean(list)
+print(x)
+
+{II}
+import statistics
+
+list = []
+num = int(input("How many numbers: "))
+for i in range(num):
+  numbers = int(input("Enter number: "))
+  list.append(numbers)
+x = statistics.mean(l)
+print(x)
