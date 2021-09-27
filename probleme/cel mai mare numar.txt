@@ -1,0 +1,7 @@
+l = [i for i in range(10)]
+l.sort()
+print("Cel mai mare numar este:", l[-1])
+
+
+l = [i for i in range(10)]
+print("Cel mai mare numar este:", max(l))
