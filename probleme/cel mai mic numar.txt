@@ -1,8 +1,0 @@
-[METODA I]
-list = [23, -14, 56, 6, 81]
-print(min(list))
-
-[METODA II]
-list = [23, -14, 56, 6, 81]
-list.sort()
-print(list[0])
